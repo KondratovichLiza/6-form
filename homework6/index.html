@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <p> <span>Пожалуйста,укажите Ваше имя и фамилию.</span>
+        </p>
+        <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+    </header>
+    <main>
+        <div class="form-container">
+            <form>
+                <input class="name" type="text" placeholder="Ваше имя">
+                <input class="surname" type="text" placeholder="Ваша фамилия">
+                <p>Дата рождения</p>
+
+                <select class="date" name="date">
+                    <option value="День" hidden>День</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select>
+                <select class="month" name="month">
+                    <option value="Месяц" hidden>Месяц</option>
+                    <option value="январь">январь</option>
+                    <option value="февраль">февраль</option>
+                    <option value="март">март</option>
+                </select>
+                <select class="year" name="year">
+                    <option value="Год" hidden>Год</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                </select>
+
+                <button class="submit" type="submit">Зарегистрироваться</button>
+                <p class="or">или
+                </p>
+
+                <button class="link"><a href="#">Продолжить с Facebook</a></button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
